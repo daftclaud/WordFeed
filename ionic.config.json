@@ -1,0 +1,7 @@
+{
+  "name": "WordFeed",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
