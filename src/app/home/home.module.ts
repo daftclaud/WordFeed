@@ -6,15 +6,10 @@ import { HomePage } from './home.page';
 
 import { HomePageRoutingModule } from './home-routing.module';
 import { HeaderComponent } from './header/header.component';
-
+import { ThemeToggleComponent } from './theme-toggle/theme-toggle.component';
 
 @NgModule({
-  imports: [
-    CommonModule,
-    FormsModule,
-    IonicModule,
-    HomePageRoutingModule
-  ],
-  declarations: [HomePage, HeaderComponent]
+  imports: [CommonModule, FormsModule, IonicModule, HomePageRoutingModule],
+  declarations: [HomePage, HeaderComponent, ThemeToggleComponent],
 })
 export class HomePageModule {}

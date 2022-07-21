@@ -1,0 +1,5 @@
+<ion-item lines="none">
+  <ion-icon [ngStyle]="{'color': isDark ? 'yellow' : 'gray'}" name="moon"></ion-icon>
+  <ion-toggle [checked]="!isDark" (ionChange)="toggleDark(!$event.detail.checked)"></ion-toggle>
+  <ion-icon [ngStyle]="{'color': !isDark ? 'orange' : 'white'}" name="sunny"></ion-icon>
+</ion-item>
